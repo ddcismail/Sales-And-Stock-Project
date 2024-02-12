@@ -26,15 +26,15 @@ public class SalesContract {
 		this.id = id;
 	}
 
-	public int getMusteriId() {
+	public int getCustomerId() {
 		return customerId;
 	}
 
-	public void setMusteriId(int customerId) {
+	public void setCustomerId(int customerId) {
 		this.customerId = customerId;
 	}
 
-	public int getAdet() {
+	public int getPiece() {
 		return piece;
 	}
 
