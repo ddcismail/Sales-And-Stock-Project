@@ -5,17 +5,17 @@ import java.util.Date;
 public class ProductsContract {
 
 	private int id;
-	private String adi;
+	private String name;
 	private int categoryId;
 	private Date date;
 	private float price;
 
-	public float getFiyat() {
+	public float getPrice() {
 		return price;
 	}
 
-	public void setFiyat(float fiyat) {
-		this.price = fiyat;
+	public void setPrice(float price) {
+		this.price = price;
 	}
 
 	public int getId() {
@@ -26,20 +26,20 @@ public class ProductsContract {
 		this.id = id;
 	}
 
-	public String getAdi() {
-		return adi;
+	public String getName() {
+		return name;
 	}
 
-	public void setAdi(String adi) {
-		this.adi = adi;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public int getKatagoriId() {
+	public int getCategoryId() {
 		return categoryId;
 	}
 
-	public void setKatagoriId(int katagoriId) {
-		this.categoryId = katagoriId;
+	public void setCategoryId(int categoryId) {
+		this.categoryId = categoryId;
 	}
 
 	public Date getDate() {
@@ -53,7 +53,7 @@ public class ProductsContract {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return id + " " + adi + " " + categoryId + " " + date + " " + price;
+		return id + " " + categoryId + " " + categoryId + " " + date + " " + price;
 	}
 
 }
