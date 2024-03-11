@@ -6,7 +6,7 @@ public class CustomerContract {
  private String nameLastName;
  private String phone;
  private String address;
- private String cityId;
+ private int cityId;
 
  public int getId() {
   return id;
@@ -16,35 +16,35 @@ public class CustomerContract {
   this.id = id;
  }
 
- public String getAdSoyad() {
+ public String getNameLastName() {
   return nameLastName;
  }
 
- public void setAdSoyad(String nameLastName) {
+ public void setNameLastName(String nameLastName) {
   this.nameLastName = nameLastName;
  }
 
- public String getTelefon() {
+ public String getPhone() {
   return phone;
  }
 
- public void setTelefon(String phone) {
+ public void setPhone(String phone) {
   this.phone = phone;
  }
 
- public String getAdres() {
+ public String getaddress() {
   return address;
  }
 
- public void setAdres(String address) {
+ public void setaddress(String address) {
   this.address = address;
  }
 
- public String getSehirId() {
+ public int getcityId() {
   return cityId;
  }
 
- public void setSehirId(String cityId) {
+ public void setcityId(int cityId) {
   this.cityId = cityId;
  }
 
