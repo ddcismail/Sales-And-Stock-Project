@@ -1,8 +1,8 @@
 package tr.com.is.types;
 
-public class Powers {
+public class PowersContract {
 
-	public Powers() {
+	public PowersContract() {
 		// TODO Auto-generated constructor stub
 	}
 
