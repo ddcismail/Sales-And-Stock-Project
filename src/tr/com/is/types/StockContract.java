@@ -22,7 +22,7 @@ public class StockContract {
 		return employeeId;
 	}
 
-	public void setPersonelId(int employeeId) {
+	public void setEmployeeId(int employeeId) {
 		this.employeeId = employeeId;
 	}
 
@@ -42,11 +42,11 @@ public class StockContract {
 		this.date = date;
 	}
 
-	public int getAdet() {
+	public int getPiece() {
 		return piece;
 	}
 
-	public void setAdet(int piece) {
+	public void setPiece(int piece) {
 		this.piece = piece;
 	}
 
