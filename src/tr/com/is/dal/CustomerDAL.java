@@ -34,7 +34,7 @@ public class CustomerDAL <CustomerContract> extends ObjectHelper implements DalI
 	@Override
 	public List<CustomerContract> GetById(int id) {
 		// TODO Auto-generated method stub
-		return null;
+		return null;
 	}
 
 }
